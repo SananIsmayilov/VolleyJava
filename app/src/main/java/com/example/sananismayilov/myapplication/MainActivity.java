@@ -45,7 +45,7 @@ Button button;
     }
 
     public  void insertData(){
-String url = "http://192.168.0.104/loginapp/insertdata.php";
+String url = "*******";
 
         StringRequest request = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
